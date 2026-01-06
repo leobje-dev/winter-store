@@ -78,14 +78,31 @@
   flex-direction: column;
   gap: 10px;
 }
+.hero-text button {
+  align-self: center;
+  padding: 5px;
+  margin-top: 20px;
+  height: 6vh;
+  border-radius: 8px;
+  border: none;
+  width: 50%;
+  background-image: linear-gradient(to left,orange 30%, red 65%, orange 90%);
+  font-size: 1.5em;
+  color: gold;
+}
+.hero-text button:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+.hero-text h1 {
+  font-weight: bolder;
+}
 .hero-text p {
   margin-right: 50px;
   text-align: justify;
   color: green;
   font-style: oblique;
-}
-.hero-text h1 {
-  font-weight: bolder;
+  justify-items: center;
 }
 
 footer {
