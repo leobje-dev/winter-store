@@ -18,8 +18,10 @@
 .navbar > ul:nth-child(1) {
   margin-right: auto;
   padding-left: 10px;
-  font-size: 1.5em;
-  font-weight: bold;
+}
+.navbar img{
+  height: 70px;
+  width: 100px;
 }
 .navbar > ul:nth-child(4) {
   padding-right: 10px;
@@ -86,7 +88,7 @@
   border-radius: 8px;
   border: none;
   width: 50%;
-  background-image: linear-gradient(to left,orange 30%, red 65%, orange 90%);
+ background: linear-gradient(to left, #5f7cff, #9bb7ff);
   font-size: 1.5em;
   color: gold;
 }
