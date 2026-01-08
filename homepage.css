@@ -89,7 +89,7 @@
   flex: 1;
   min-width: 322px;
 }
-.hero-text button {
+.hero-text a {
   align-self: center;
   padding: 5px;
   margin-top: 20px;
@@ -100,8 +100,10 @@
   background: linear-gradient(to left, #5f7cff, #9bb7ff);
   font-size: 1.5em;
   color: gold;
+  text-align: center;
+  text-decoration: none;
 }
-.hero-text button:hover {
+.hero-text a:hover {
   scale: 1.05;
   cursor: pointer;
 }
