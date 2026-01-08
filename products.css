@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+
+  background-color: grey;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+.navbar > ul:nth-child(1) {
+  margin-right: auto;
+  padding-left: 10px;
+}
+.navbar img {
+  height: 70px;
+  width: 100px;
+}
+.navbar > ul:nth-child(4) {
+  padding-right: 10px;
+}
+.navbar ul {
+  font-size: 1.25em;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.navbar a.active{
+  color: white;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.navbar ul:hover {
+  scale: 1.05;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  padding-right: 10px;
+}
+.search form {
+  display: flex;
+  margin: 0;
+}
+.search input {
+  padding: 10px;
+  border: 1px solid;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.search input:hover {
+  border: 1px solid #72a0d4;
+}
+.search button {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 19px;
+  cursor: pointer;
+}
+.search button:hover {
+  background-color: #ccc;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+section{
+    border-radius: 8px;
+    background-color: rgb(212, 231, 249);
+    padding: 20px;
+    margin: 50px;
+}
+section img{
+    width: 100%;
+}
+section h3{
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+section .initial-price{
+    display: block;
+    text-align: center;
+    font-size: small;
+    text-decoration: line-through;
+    font-style:italic;
+}
+section .new-price{
+    display: block;
+    text-align: center;
+    font-size: small;
+    font-style:italic;
+}
