@@ -34,7 +34,7 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.navbar a.active{
+.navbar a.active {
   color: white;
   font-weight: 600;
   font-size: 1.1em;
@@ -76,39 +76,47 @@
   background-color: #ccc;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 40px;
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
 }
-section{
-    border-radius: 8px;
-    background-color: rgb(212, 231, 249);
-    padding: 20px;
-    margin: 50px;
+section {
+  border-radius: 8px;
+  background-color: rgb(212, 231, 249);
+  padding: 20px;
+  margin: 50px;
 }
-section img{
-    width: 100%;
+section img {
+  width: 100%;
 }
-section h3{
-    text-align: center;
-    font-size: small;
-    font-weight: lighter;
+section h3 {
+  text-align: center;
+  font-size: small;
+  font-weight: lighter;
+  margin-bottom: 5px;
 }
-section a{
-    text-decoration: none;
-    color: black;
+section a {
+  text-decoration: none;
+  color: black;
 }
-section .initial-price{
-    display: block;
-    text-align: center;
-    font-size: small;
-    text-decoration: line-through;
-    font-style:italic;
+.product-prices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-section .new-price{
-    display: block;
-    text-align: center;
-    font-size: small;
-    font-style:italic;
+section .initial-price {
+  display: block;
+  text-align: center;
+  font-size: small;
+  text-decoration: line-through;
+  font-style: italic;
+}
+section .new-price {
+  display: block;
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  background-color: yellow;
 }
