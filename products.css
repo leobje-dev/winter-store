@@ -68,7 +68,7 @@ body{
 }
 .search button {
   padding: 10px;
-  background-color: #fff;
+  background-color: whitesmoke;
   border: none;
   border-radius: 5px;
   color: #333;
@@ -144,7 +144,7 @@ aside button{
   margin-right: 60px;
   padding: 1em;
   border: none;
-  background-color: white;
+  background-color: whitesmoke;
   font-size: medium;
 }
 aside button:hover{
