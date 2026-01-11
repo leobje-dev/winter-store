@@ -220,4 +220,9 @@ footer img:hover {
   .dropdown ul li {
     padding: 6px 0;
   }
+  .dropdown button{
+    background-color: grey;
+    border: none;
+    height: 10vh;
+  }
 }
